@@ -1,7 +1,7 @@
 from aiogram.types import Message
 
 from helpers import BOT, TZ
-from database import sql_get_user, sql_read_day, get_user_group, sql_set_group
+from database import sql_get_user, sql_read_day, get_user_group
 from keyboards import get_rkm, state_changing_rkm
 
 import datetime as d
